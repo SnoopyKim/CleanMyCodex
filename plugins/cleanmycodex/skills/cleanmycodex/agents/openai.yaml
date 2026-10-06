@@ -1,0 +1,4 @@
+interface:
+  display_name: "CleanMyCodex"
+  short_description: "Audit storage and clean local work with verified backups"
+  default_prompt: "Use $cleanmycodex to inspect local cleanup candidates and explain what can be safely archived."

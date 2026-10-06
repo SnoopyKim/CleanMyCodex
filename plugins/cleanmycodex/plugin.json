@@ -1,0 +1,19 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "cleanmycodex",
+  "version": "0.1.0",
+  "description": "Audit local AI workspaces, check Git backup coverage, and reclaim space with verified archives.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "CleanMyCodex",
+        "shortDescription": "Review, archive, clean up, and restore local work.",
+        "longDescription": "A local cleanup assistant for Codex workspaces. Inspect storage, verify Git history coverage, archive selected files, and export saved conversations before native cleanup.",
+        "developerName": "SnoopyKim",
+        "category": "Productivity",
+        "capabilities": ["Interactive", "Read", "Write"],
+        "defaultPrompt": ["Use $cleanmycodex to review local cleanup candidates."]
+      }
+    }
+  }
+}

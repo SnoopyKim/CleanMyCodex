@@ -1,0 +1,17 @@
+{
+  "name": "cleanmycodex",
+  "version": "0.1.0",
+  "description": "Audit local AI workspaces, verify backups, and clean up with restorable archives.",
+  "author": {"name": "SnoopyKim", "url": "https://github.com/SnoopyKim"},
+  "repository": "https://github.com/SnoopyKim/CleanMyCodex",
+  "license": "MIT",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "CleanMyCodex",
+    "shortDescription": "Review, archive, clean up, and restore local work.",
+    "developerName": "SnoopyKim",
+    "category": "Productivity",
+    "capabilities": ["Interactive", "Read", "Write"],
+    "defaultPrompt": ["Use $cleanmycodex to review local cleanup candidates."]
+  }
+}

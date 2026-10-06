@@ -1,0 +1,12 @@
+{
+  "name": "cleanmycodex",
+  "interface": {"displayName": "CleanMyCodex"},
+  "plugins": [
+    {
+      "name": "cleanmycodex",
+      "source": {"source": "local", "path": "./plugins/cleanmycodex"},
+      "policy": {"installation": "AVAILABLE", "authentication": "ON_INSTALL"},
+      "category": "Productivity"
+    }
+  ]
+}
