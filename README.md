@@ -15,9 +15,9 @@ codex plugin add cleanmycodex@cleanmycodex
 
 Open a new Codex chat or reload skills if the running client does not discover the installed skill immediately. Then ask:
 
-> `$cleanmycodex`로 이 작업 폴더의 용량과 정리 후보를 확인해줘. 프로젝트는 Git 원격 백업 상태도 확인해줘.
+> `$cleanmycodex:cleanmycodex`로 이 작업 폴더의 용량과 정리 후보를 확인해줘. 프로젝트는 Git 원격 백업 상태도 확인해줘.
 
-> `$cleanmycodex`로 선택한 임시 자료를 압축 보관하고 정리해줘. 원본과 압축본이 같은지 검증하고 복원 방법도 남겨줘.
+> `$cleanmycodex:cleanmycodex`로 선택한 임시 자료를 압축 보관하고 정리해줘. 원본과 압축본이 같은지 검증하고 복원 방법도 남겨줘.
 
 This repository is a Git-backed plugin marketplace. A public GitHub repository does not imply a listing in OpenAI's global plugin directory.
 
